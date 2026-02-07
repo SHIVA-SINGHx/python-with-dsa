@@ -2,6 +2,7 @@ class Graph:
     def __init__(self, vertex):
         self.mat = [ [0]*vertex for x in range(vertex)]
         self.size = vertex
+
         
     # Add edges in undirected graph? 
     def add_edge(self, source, destination):
@@ -17,7 +18,7 @@ class Graph:
            print(' '.join(map(str, row)))
            
            
-G = Graph(5)
+G = Graph(5) # inserting 5 vertex here
 
 G.add_edge(0,1)
 G.add_edge(0,2)

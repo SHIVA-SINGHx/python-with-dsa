@@ -26,8 +26,6 @@ class Stack:
             return self.stack.pop(0)
         
     
-    
-    
 obj = Stack()
 obj.push(10)
 obj.push(20)
