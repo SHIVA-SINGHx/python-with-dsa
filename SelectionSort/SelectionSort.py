@@ -7,7 +7,7 @@ def SelectionSort(a):
             if(a[min] > a[j]):
                 min = j
                 
-        a[i], a[min] = a[min], a[i]
+        a[i], a[min] = a[min], a[i] ## Swipe the value
         
 
 a = [64, 55, 56,76, 787, 89,45, 15, 2, 3, 4,]
