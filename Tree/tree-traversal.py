@@ -26,9 +26,7 @@ def postOrder(root):
         postOrder(root.right)
         print(root.data, end=" ")
         
-        
-        
-            
+                  
 root = Node(1)
 root.left= Node(2)
 root.right = Node(5)

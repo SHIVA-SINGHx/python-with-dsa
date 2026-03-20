@@ -10,7 +10,9 @@ def InsertionSort(a):
             
         a[j+1] = key
         
+
         
 a = [64, 56, 42, 56, 77, 245, 567,12,8]
 InsertionSort(a)
 print(a)
+

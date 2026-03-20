@@ -1,12 +1,10 @@
 # Binary search tree>>
 
-
 class Node:
     def __init__(self, value):
         self.left = None
         self.right = None
         self.data = value
-        
         
 def insert(root, value):
         if (root == None):
@@ -21,7 +19,6 @@ def insert(root, value):
         else:
             root.right = insert(root.right, value)  
         return root # agar koi sa block nhi chlta to ye chalega>>
-    
     
 def search(root, value):
     if(root == None):
@@ -63,16 +60,12 @@ def deletion(root, value):
             
     return root
             
-
 def inOrder(root):
     if(root != None):
         inOrder(root.left)
         print(root.data, end=" ")
         inOrder(root.right)
         
-        
-
-
 root = insert(None, 20)
 root = insert(root, 15)
 root = insert(root, 30)

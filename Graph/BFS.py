@@ -4,7 +4,7 @@ class Graph:
     def __init__(self, vertex):
         self.mat = [ [0]*vertex for x in range(vertex)] ## jitne vertex honge like(8) utne kaa matrix ban jayga and sbme 0 fill ho jayga
         self.size = vertex
-
+    
         
     # Add edges in undirected graph? 
     def add_edge(self, source, destination):
